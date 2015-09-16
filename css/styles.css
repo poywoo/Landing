@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px tahoma,sans-serif;
+}
+
+#intro {
+  background: url('../img/Mountain.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: #F5F5DC;
+  width:auto; 
+  height:100%;
+}
+
+.navbar-custom {
+  border-color: #E7E7E7;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: 'Lobster Two', sans-serif;
+  font-size: 30px;
+  color: #777;
+}
+
+/* links */
+.navbar-custom .navbar-nav > li > a {
+  color: #777;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-custom .navbar-nav > .open > a, 
+.navbar-custom .navbar-nav > .open > a:hover, 
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+/* caret */
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777;
+  border-bottom-color: #777;
+}
+
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;
+}
+
+.navbar-custom .navbar-nav > .open > a .caret, 
+.navbar-custom .navbar-nav > .open > a:hover .caret, 
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555;
+  border-bottom-color: #555;
+}
+
+/* icon bar */
+.icon-bar {
+  background-color: #CCC;
+}
+
+/* mobile version */
+.navbar-custom .navbar-toggle {
+  border-color: #DDD;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #DDD;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+#welcome {
+  font-size: 60px;
+  padding-top: 130px; 
+  padding-bottom:20px;
+}
+
+#description {
+  padding-bottom: 150px;
+}
+
+/* circle */
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.divider {
+  height: 120px;
+}
+
+.feat {
+  padding-top: 10px;
+}
+
+img:hover {
+  opacity: 0.85;
+}
+
+section {
+  padding-top: 100px;
+}
+
+
+#footer {
+  height: 280px;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: #89969F;
+}
+
+.footer-head {
+  color: #E0E0E0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left:0;
+}
